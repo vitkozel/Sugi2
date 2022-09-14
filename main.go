@@ -97,7 +97,3 @@ func openWebInBrowser(url string, operatingSystem string) error {
 	err := exec.Command(command, url).Start()
 	return err
 }
-
-func main() {
-	announce("Hello world!")
-}
